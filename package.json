@@ -1,0 +1,27 @@
+{
+  "name": "guess-who",
+  "description": "Guess Who browser game",
+  "version": "0.0.0",
+  "author": "Kriss Watt <kriss.watt@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "eslintConfig": {
+    "extends": "arenanet",
+    "env": {
+      "node": true,
+      "browser": true
+    },
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "one-var": [2, {
+        "const": "never"
+      }]
+    }
+  },
+  "devDependencies": {
+    "eslint": "^4.4.0",
+    "eslint-config-arenanet": "^3.3.1"
+  }
+}

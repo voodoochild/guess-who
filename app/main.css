@@ -1,5 +1,5 @@
 html {
-
+    font-size: 100%;
 }
 
 body {
@@ -8,4 +8,10 @@ body {
 
 .game {
 
+}
+
+.tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }

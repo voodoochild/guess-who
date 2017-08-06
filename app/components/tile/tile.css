@@ -1,0 +1,19 @@
+.tile {
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    width: 320px;
+}
+
+.picture {
+    height: 320px;
+    width: 320px;
+}
+
+.name {
+
+}
+
+.flipped {
+
+}

@@ -21,8 +21,7 @@ export default function() {
             const state = vnode.state;
 
             return m("div", {
-                class : [ css.tile, state.flipped ? css.flipped : null ].join(" "),
-
+                class   : [ css.tile, state.flipped ? css.flipped : null ].join(" "),
                 onclick : state.flip
             },
                 m("img", {
